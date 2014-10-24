@@ -1,0 +1,14 @@
+<div>
+    <ul>
+       <li ng-repeat="hour in timelineHours"
+           offsetter="{ top: {{ hour.start - 5 }}, height: true }">
+           <div class="clearfix">
+               <span class="fr light view_zone">{{ hour.zoneHour }}</span>
+               <span class="fr view_hour">{{ hour.viewHour + ':00' }}</span>
+           </div>
+           <div class="clearfix">
+               <span ng-if="!$last" class="fr light view_h_hour">{{ hour.viewHour + ':30' }}</span>
+           </div>
+       </li>
+    </ul>
+</div>
