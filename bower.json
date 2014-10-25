@@ -1,6 +1,6 @@
 {
   "name": "fb-callender",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "angular": "*",
     "jquery": "~2.1.1"
@@ -8,5 +8,5 @@
   "devDependencies": {
     "angular-mocks": "*"
   },
-  "appPath": "app"
+  "appPath": "src"
 }
