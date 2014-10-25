@@ -330,6 +330,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
+    'karma',
     'clean:dist',
     'wiredep',
     'useminPrepare',
