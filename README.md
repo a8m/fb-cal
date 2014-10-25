@@ -64,7 +64,7 @@ layOutDay([
    { start: 620, end: 700 },
    ]);
 ```
-**TODO:**
+#TODO:
 * Make it more configurable
 * Add month/year calender view
 * expose API to work with him
