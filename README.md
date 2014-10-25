@@ -1,5 +1,4 @@
-fb-cal
-====== [![Build Status](https://travis-ci.org/a8m/fb-cal.svg?branch=master)](https://travis-ci.org/a8m/fb-cal) [![Coverage Status](https://img.shields.io/coveralls/a8m/fb-cal.svg)](https://coveralls.io/r/a8m/fb-cal?branch=master)
+#fb-cal [![Build Status](https://travis-ci.org/a8m/fb-cal.svg?branch=master)](https://travis-ci.org/a8m/fb-cal) [![Coverage Status](https://img.shields.io/coveralls/a8m/fb-cal.svg)](https://coveralls.io/r/a8m/fb-cal?branch=master)
 **Usage:**  
 Run tests (unit, e2e)
 ```sh
