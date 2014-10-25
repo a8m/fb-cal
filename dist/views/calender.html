@@ -1,0 +1,11 @@
+<div class="calender_box">
+    <div class="event" ng-repeat="ev in events"
+         offsetter="{ top: {{ ev.start }}, width: {{ ev.siblings }}, height: {{ ev.end - ev.start }}, right: {{ ev.right }} }">
+        <p class="title">Sample Item</p>
+        <p class="description">Sample Location</p>
+        <!--TODO:remove it, it's just for tests things-->
+        <span class="timez">
+            {{ (9 + (ev.start - ev.start % 60) / 60) + ':' + ((ev.start % 60) ? (ev.start % 60) : '00') }}
+        </span>
+    </div>
+</div>
