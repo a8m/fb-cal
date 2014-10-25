@@ -22,9 +22,7 @@ function hoursFilter() {
         start    : n,
         end      : n + 60
       });
-    } while(domain > (n = n + 60));
-
-    res.push({ viewHour: ++i, zoneHour: i < 12 ? 'PM' : 'AM', start : n });
+    } while((domain + 60) > (n = n + 60));
 
     return res;
   };

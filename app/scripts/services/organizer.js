@@ -36,7 +36,7 @@ function organizerFactory() {
   /**
    * @public
    * @description
-   * organizeFactory return an organize function
+   * organizerFactory return an organize function
    * this function takes "list" os events and "sort" them
    * #find-siblings, #oragnize-place
    */

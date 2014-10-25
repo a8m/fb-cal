@@ -13,7 +13,7 @@
  *
  * Main module of the application.
  */
-angular.module('fbCalender', [ 'ngAnimate' ])
+angular.module('fbCalender', [])
   .controller({
     CalenderCtrl: ['$scope', 'hoursFilter', 'organizer','CALENDER', '$window', CalenderCtrl]
   })
