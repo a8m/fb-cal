@@ -48,7 +48,7 @@ describe('offsetterDirective', function () {
 
   it('should set role right:0 if set to true(Boolean)', function() {
     inject(compile('<p offsetter="{ right: true }"></p>'));
-    expectCss()
+    expectCss('right', 0);
   });
 
 });

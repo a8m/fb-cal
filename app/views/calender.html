@@ -4,6 +4,8 @@
         <p class="title">Sample Item</p>
         <p class="description">Sample Location</p>
         <!--TODO:remove it, it's just for tests things-->
-        <span class="timez">{{ (9 + (ev.start - ev.start % 60) / 60) + ':' + (ev.start % 60) || '00' }}</span>
+        <span class="timez">
+            {{ (9 + (ev.start - ev.start % 60) / 60) + ':' + ((ev.start % 60) ? (ev.start % 60) : '00') }}
+        </span>
     </div>
 </div>

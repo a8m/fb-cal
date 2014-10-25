@@ -46,6 +46,9 @@ body {
             border-left: 4px solid #4b6ea8;
             position: absolute;
             overflow: hidden;
+            -webkit-animation: showEvent 0.3s;
+            -moz-animation: showEvent 0.3s;
+            animation: showEvent 0.3s;
             p { margin: 10px 10px 0 10px }
             .title { color: #5877ae; font-size: 14px }
             .description { font-size: 11px; color: #a9a9a9; margin-top: 2px; }
@@ -72,6 +75,47 @@ body {
           }
         }
       }
+    }
+    //Lets add some animation, so it's look more interesting
+    @-webkit-keyframes showEvent {
+      0% {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7); }
+      45% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05); }
+      80% {
+        transform: scale(0.95);
+        -webkit-tranform: scale(0.95); }
+      100% {
+        transform: scale(1);
+        -webkit-transform: scale(1); } }
+    @-moz-keyframes showEvent {
+      0% {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7); }
+      45% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05); }
+      80% {
+        transform: scale(0.95);
+        -webkit-tranform: scale(0.95); }
+      100% {
+        transform: scale(1);
+        -webkit-transform: scale(1); } }
+    @keyframes showSEvent {
+      0% {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7); }
+      45% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05); }
+      80% {
+        transform: scale(0.95);
+        -webkit-tranform: scale(0.95); }
+      100% {
+        transform: scale(1);
+        -webkit-transform: scale(1); }
     }
   }
 }
